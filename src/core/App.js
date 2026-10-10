@@ -1,12 +1,9 @@
-import Test from "../test/test";
-
 export default class App {
   constructor(env) {
-    this.env = env
-    this.test = new Test(this)
+    this.env = env;
   }
 
   init() {
-    this.test.init()
+    // Initialize your application's components here.
   }
 }

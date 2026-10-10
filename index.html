@@ -2,12 +2,146 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta
+      name="description"
+      content="A thoughtful starting point for your next project. Explore a simple vanilla JavaScript, Sass, and Vite foundation."
+    />
+    <title>Your next idea starts here — Launchpad</title>
   </head>
   <body>
-    <div id="app"></div>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header class="site-header shell">
+      <a class="brand" href="%BASE_URL%index.html" aria-label="Launchpad home"
+        ><span class="brand-mark">↗</span> launchpad<span class="brand-dot"
+          >.</span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a aria-current="page" href="%BASE_URL%index.html">Overview</a
+        ><a href="%BASE_URL%pages/test.html"
+          >Playground <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="app">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span> YOUR NEXT PROJECT STARTS HERE
+          </p>
+          <h1>Small start.<br />Big <span class="accent-word">ideas.</span></h1>
+          <p class="hero-description">
+            A clean canvas for whatever comes next. Simple tools, thoughtful
+            defaults, and room to build something that's yours.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="%BASE_URL%pages/test.html"
+              >Explore the playground <span aria-hidden="true">↗</span></a
+            ><a class="text-link" href="#foundation"
+              >See what's inside <span aria-hidden="true">↓</span></a
+            >
+          </div>
+          <div class="hero-note">
+            <span class="mini-lines" aria-hidden="true">≡</span> Vanilla
+            JavaScript. Sass. Vite. That's it.
+          </div>
+        </div>
+        <div
+          class="canvas-illustration"
+          aria-label="Illustration of a project taking shape"
+        >
+          <span class="canvas-label">THE POSSIBILITIES ARE OPEN</span>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="floating-tag tag-top">
+            <span class="status-dot"></span> Idea in progress
+          </div>
+          <div class="idea-sheet">
+            <div class="sheet-top">
+              <span>YOUR NEXT BIG THING</span><span>01 / ∞</span>
+            </div>
+            <div class="sheet-symbol" aria-hidden="true">✳</div>
+            <div class="sheet-bottom">
+              <strong>Make it<br />happen.</strong
+              ><span aria-hidden="true">↗</span>
+            </div>
+          </div>
+          <div class="floating-tag tag-bottom">
+            <span aria-hidden="true">⌘</span> Built from a blank canvas
+          </div>
+          <span class="canvas-coordinate">A GOOD PLACE TO BEGIN — 001</span>
+        </div>
+      </section>
+      <div class="stack-strip">
+        <div class="shell">
+          <span>LESS SETUP. MORE MAKING.</span><span>Vanilla JS</span
+          ><span class="strip-plus">+</span><span>Vite</span
+          ><span class="strip-plus">+</span><span>Sass</span
+          ><span class="strip-note">A foundation, not a framework.</span>
+        </div>
+      </div>
+      <section id="foundation" class="foundation shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE FOUNDATION</p>
+            <h2>Everything you need.<br />Space for everything else.</h2>
+          </div>
+          <p>
+            A few considered essentials to help you move from an idea to a
+            working project.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-number">01 /</span>
+            <div class="feature-icon" aria-hidden="true">⌘</div>
+            <h3>Keep it simple</h3>
+            <p>
+              Plain JavaScript and organized Sass. Familiar tools that stay out
+              of your way.
+            </p>
+            <span class="feature-caption">NO FRAMEWORK REQUIRED</span>
+          </article>
+          <article>
+            <span class="feature-number">02 /</span>
+            <div class="feature-icon" aria-hidden="true">▦</div>
+            <h3>Room to grow</h3>
+            <p>
+              Start with one page. Add another. Shared styles keep everything
+              connected.
+            </p>
+            <span class="feature-caption">MULTIPLE PAGES, ONE FOUNDATION</span>
+          </article>
+          <article>
+            <span class="feature-number">03 /</span>
+            <div class="feature-icon" aria-hidden="true">↗</div>
+            <h3>Ready for the next step</h3>
+            <p>
+              A production build and a deployment command when your idea is
+              ready to go.
+            </p>
+            <span class="feature-caption">FROM LOCAL TO LIVE</span>
+          </article>
+        </div>
+      </section>
+      <section class="next-step shell">
+        <div>
+          <p class="eyebrow">LESS TALK, MORE TINKERING</p>
+          <h2>Take it for a spin.</h2>
+          <p>Try the components. Change the mood. See what feels right.</p>
+        </div>
+        <a class="button button-dark" href="%BASE_URL%pages/test.html"
+          >Open playground <span aria-hidden="true">↗</span></a
+        >
+      </section>
+    </main>
+    <footer class="site-footer shell">
+      <a class="brand footer-brand" href="%BASE_URL%index.html">launchpad.</a>
+      <p>A little structure. A lot of possibility.</p>
+      <span>Made to make it yours ↗</span>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

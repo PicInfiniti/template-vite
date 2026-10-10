@@ -1,13 +1,32 @@
-html, body
+*, *::before, *::after
+  box-sizing: border-box
+
+html
+  color-scheme: light
+
+body
   margin: 0
-  padding: 0
-  overflow: hidden
+  min-height: 100vh
   font-family: 'Ubuntu', sans-serif
-  font-weight: 300
+  font-weight: 400
+  line-height: 1.5
+  color: var(--text-color)
+  background: var(--background-color)
 
-  *
-    box-sizing: border-box
-    text-decoration: none
+img, video, canvas, svg
+  display: block
+  max-width: 100%
 
-    a:visited 
-      color: black
+img, video
+  height: auto
+
+button, input, select, textarea
+  font: inherit
+
+a
+  color: var(--link-color)
+  text-underline-offset: .2em
+
+:focus-visible
+  outline: 2px solid var(--link-color)
+  outline-offset: 4px

@@ -1,7 +1,5 @@
-// main.js
-import App from './core/App';
+import App from './core/App.js';
 import './assets/sass/main.sass';
-const env = import.meta.env;
 
-const app = new App(env);
+const app = new App(import.meta.env);
 app.init();
