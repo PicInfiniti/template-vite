@@ -1,0 +1,1 @@
+import"./main-Bv0s3m39.js";new class{constructor(e){this.env=e}init(){}}({BASE_URL:`./`,DEV:!1,MODE:`production`,PROD:!0,SSR:!1}).init();
